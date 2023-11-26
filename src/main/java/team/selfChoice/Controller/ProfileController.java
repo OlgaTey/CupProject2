@@ -7,6 +7,7 @@ import team.selfChoice.DTO.create.ProfileCreateDTO;
 
 import java.io.IOException;
 
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 public interface ProfileController {
 
